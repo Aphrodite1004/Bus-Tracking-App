@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C1E4E</color>
+    <color name="colorPrimaryDark">#0C1E4E</color>
+    <color name="colorAccent">#0C1E4E</color>--
+  <!--  <color name="text_head">#FFCCE5</color>
+    <color name="text_bottom">#FFE4F1</color>-->
+    <color name="text_head">#CDE9FF</color>
+    <color name="text_bottom">#E2F1FF</color>
+
+    <color name="out_head">#CDE9FF</color>
+    <color name="out_bottom">#E2F1FF</color>
+
+    <color name="in_head">#FFF2AB</color>
+    <color name="in_bottom">#FFF7E2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="hintcolor">#9C9C9C</color>
+
+    <color name="dialog_back">#AECAC8C8</color>
+</resources>

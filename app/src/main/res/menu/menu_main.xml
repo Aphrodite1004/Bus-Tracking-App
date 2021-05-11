@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_change_pwd"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/nav_language"
+        android:title="Change Language" />
+    <item
+        android:id="@+id/nav_contact_us"
+        android:title="Help and Support" />
+    <item
+        android:id="@+id/nav_sign_out"
+        android:title="Sign out" />
+</menu>

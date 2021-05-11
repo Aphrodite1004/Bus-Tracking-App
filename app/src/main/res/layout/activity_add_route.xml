@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".AddRouteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight=".5">
+        <TextView
+            android:id="@+id/tv_bus_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_edit_text"
+            android:hint="Bus No."
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/hintcolor" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_source"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/round_edit_text"
+                android:hint="Source"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/hintcolor" />
+
+            <ImageView
+                android:id="@+id/img_source"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_location_on_black_24dp"
+                android:layout_weight="1.7"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_destination"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/round_edit_text"
+                android:hint="Destination"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/hintcolor" />
+
+            <ImageView
+                android:id="@+id/img_dest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_location_on_black_24dp"
+                android:layout_weight="1.7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="10dp">
+            <EditText
+                android:id="@+id/et_departure_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_edit_text"
+                android:hint="Departure Time"
+                android:inputType="text"
+                android:padding="10dp"
+                android:enabled="false"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/hintcolor"
+                android:layout_weight=".3"/>
+            <ImageView
+                android:id="@+id/img_departure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_watch_later_black_24dp"
+                android:layout_weight="1.7"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_distance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_edit_text"
+            android:hint="Distance"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/hintcolor"/>
+        <Button
+            android:id="@+id/btnAddRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/on_click_btn_change_color"
+            android:text="ADD ROUTE"
+            android:padding="15sp"
+            android:textColor="@color/white"
+            style="?android:attr/borderlessButtonStyle"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
